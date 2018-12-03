@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Em que cidade se passa a serie Breaking Bad? "
+            android:textSize="19dp"
+            android:id="@+id/txtPergunta"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+
+            >
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/vermelho"
+                android:text="ALBURQUEQUE"
+                android:textColor="@color/branco"
+                android:id="@+id/btn1"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/colorPrimary"
+                android:text="TANTO FAZ"
+                android:textColor="@color/branco"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/btn2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:text="30"
+                android:textAlignment="center"
+                android:textSize="38dp"
+                android:textStyle="bold"
+                android:id="@+id/txtRelogio"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

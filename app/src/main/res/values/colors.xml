@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="rosinha"> #ea389c </color>
+    <color name="branco"> #fff </color>
+    <color name="lilas"> #893cc1 </color>
+    <color name="roxinho"> #beb3e5 </color>
+    <color name="vermelho">#d62a2a </color>
+</resources>
